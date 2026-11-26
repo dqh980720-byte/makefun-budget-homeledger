@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Household Budget Planner</title>
+<meta name="description" content="Plan a household budget, track expenses and reach savings goals — entirely in the browser, no account needed.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#/">HomeLedger</a>
+  <nav aria-label="Sections">
+    <a href="#/">Dashboard</a>
+    <a href="#/planner">Budget planner</a>
+    <a href="#/expenses">Expenses</a>
+    <a href="#/goals">Savings goals</a>
+    <a href="#/guide">Guide</a>
+  </nav>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="site-footer">
+  <p>HomeLedger — a household budget planner that runs entirely in your browser.
+  Nothing you type is sent anywhere. The sample household is fictional; the
+  tools work with any numbers you enter.</p>
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
