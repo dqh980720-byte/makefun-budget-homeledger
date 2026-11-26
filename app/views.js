@@ -8,6 +8,7 @@ import {
   EXPENSES,
   GOALS,
   TIPS,
+  PAYDAY_CHECKLIST,
   spentByCategory,
   totalSpent,
   totalBudget,
@@ -174,6 +175,13 @@ export function viewGuide() {
   <section class="panel">
     <h2>Five things that actually move the needle</h2>
     ${TIPS.map((t) => `<h3>${t.title}</h3><p>${t.body}</p>`).join('')}
+  </section>
+  <section class="panel">
+    <h2>The payday routine — five minutes, once a month</h2>
+    <ol>${PAYDAY_CHECKLIST.map((step) => `<li>${step}</li>`).join('')}</ol>
+    <p>Over a year this household plans to save ${money(780 * 12)} and spend
+    ${money(totalBudget() * 12)} — the planner above shows whether the month
+    is keeping to that pace.</p>
   </section>`;
 }
 
