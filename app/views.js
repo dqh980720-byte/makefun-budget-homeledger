@@ -182,6 +182,21 @@ export function viewGuide() {
     <p>Over a year this household plans to save ${money(780 * 12)} and spend
     ${money(totalBudget() * 12)} — the planner above shows whether the month
     is keeping to that pace.</p>
+  </section>
+  <section class="panel">
+    <h2>Three mistakes to avoid</h2>
+    <h3>1. Budgeting every dollar of income</h3>
+    <p>Leave a buffer. This household budgets ${money(totalBudget())} of
+    ${money(income)} and leaves ${money(income - totalBudget())} unassigned —
+    that buffer absorbs the month's surprises instead of breaking the plan.</p>
+    <h3>2. Tracking only the big bills</h3>
+    <p>The small, frequent spends are the leak: four grocery shops a month
+    add up to ${money(571)} here, more than the car and the bus passes
+    combined. The tracker exists for the small lines, not the rent.</p>
+    <h3>3. Setting a goal with no date</h3>
+    <p>A goal without a monthly amount is a wish. Every goal on the goals
+    page has a monthly figure and a finish date — that is what turns saving
+    into a plan.</p>
   </section>`;
 }
 
