@@ -45,6 +45,16 @@ export const GOALS = [
   { name: 'Emergency fund', target: 10000, saved: 6400, monthly: 500, note: 'Six months of essential spending' },
   { name: 'Summer holiday', target: 2400, saved: 900, monthly: 200, note: 'Flights and a week away in July' },
   { name: 'New washing machine', target: 650, saved: 420, monthly: 80, note: 'The old one leaks' },
+  { name: 'Car deposit', target: 4000, saved: 1100, monthly: 150, note: 'A reliable used car within two years' },
+];
+
+// The payday routine: five minutes, once a month, in this order.
+export const PAYDAY_CHECKLIST = [
+  'Move the savings transfer out first — it goes before any spending.',
+  'Pay the rent and the bills that are due this week.',
+  'Look at last month’s biggest category: one line over budget is a signal, not a failure.',
+  'Move any money left over from last month into the emergency fund.',
+  'Pick one small cut for this month and write it down — one cut, kept, beats five abandoned ones.',
 ];
 
 export const TIPS = [
